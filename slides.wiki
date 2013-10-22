@@ -1,0 +1,21 @@
+== wstęp ==
+
+==== plan prezentacji ====
+
+\tableofcontents
+
+
+
+
+
+
+
+
+%\tableofcontents[currentsection,currentsubsection]
+
+%<[figure]
+%<<<images/spec_1.png, scale=0.27>>>
+%[figure]>
+
+
+

@@ -1,0 +1,88 @@
+\usepackage[utf8x]{inputenc}
+%\usepackage{color}
+%\usepackage{textcomp}
+%\usepackage{graphicx}
+%\usepackage{lmodern}
+%\usepackage{latexsym}
+\usepackage[polish]{babel}
+\usepackage[OT4]{fontenc}
+\usepackage[MeX]{polski}
+\usepackage{polski}
+%\usepackage{beamerthemesplit}
+\setbeamertemplate{navigation symbols}{}
+\renewcommand*\ttdefault{txtt}
+\renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
+\usepackage[T1]{fontenc}
+\usetheme{CambridgeUS}
+\usecolortheme{beaver}
+%\useoutertheme{smoothbars}
+\useinnertheme{rounded}
+%\setbeamertemplate{footline}{}
+\usepackage{ragged2e}
+\let\raggedright=\RaggedRight
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor%~~\beamer@ifempty{\insertshortinstitute}{}{(\insertshortinstitute)}
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatother
+
+
+
+
+\input{cc_beamer}
+
+\author{Karol Auguštin}
+\institute{Zakład Fizyki Biomedycznej}
+%Wydział Fizyki
+%    \begin{figure}
+%        \includegraphics[scale=0.3]{images/logo_ifd.png}
+%        \hspace{4em}
+%        \includegraphics[scale=0.07]{images/logo_fuw.png}
+%    \end{figure}
+%    }
+
+\title{obrazki z wystawy}
+%\definecolor{gray}{rgb}{0.10,0.10,0.10}
+%\date{}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+    \begin{center}
+    \tiny{Version: \input{git-sha}}
+    \hspace{1em}
+    \tiny\url{http://karolaugustin.pl/wystawa}
+    \begin{tabular}[t]{lr}
+        \mbox{\href{https://creativecommons.org/licenses/by-sa/3.0/}
+          {\CcGroupBySa{0.35}{0.95ex}}}
+        &
+        \parbox[b]{10cm}{{\tiny
+            \href{https://creativecommons.org/licenses/by-sa/3.0/}
+            {\CcNote{\CcLongnameBySa}}}} \\
+    \end{tabular}
+\end{center}
+\end{frame}
+
+\input{slides.wiki.tex}
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "slides"
+%%% End: 
