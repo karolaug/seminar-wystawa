@@ -2,6 +2,7 @@
 /slides.???
 slides.wiki.tex
 git-sha
+*.pdf
 
 # GNU Emacs tmp files
 auto/*
