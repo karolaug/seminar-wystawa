@@ -13,7 +13,7 @@ default: $(slides).pdf
 %.pdf: | %.tex $(slides).wiki.tex
 	pdflatex -shell-escape "$(*)".tex
 	pdflatex -shell-escape "$(*)".tex
-	cp "$(*)".pdf "$(slidefilename)"-"$(*)"-"$(git_sha)".pdf
+	mv "$(*)".pdf "$(slidefilename)"-"$(*)"-"$(git_sha)".pdf
 
 $(slides).wiki.tex: $(slides).wiki
 	wiki2beamer $(slides).wiki > $(slides).wiki.tex
