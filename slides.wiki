@@ -213,7 +213,7 @@ P300 i SSVEP & 145
 * matching-pursuit 5.2-1
 http://deb.braintech.pl
 
-Napisano ponad 1500 linii kodu
+Napisano 1628 linii kodu
 
 
 ==== Autorzy ====
