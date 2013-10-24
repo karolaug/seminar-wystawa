@@ -1,20 +1,121 @@
 == wstęp ==
 
+
+
 ==== plan prezentacji ====
+\tableofcontents%[hideallsubsections]
 
-\tableofcontents
 
 
-==== zależność liczby błędów od czasu ====
+== o wystawie ==
+
+==== plan prezentacji ====
+\tableofcontents[currentsection]
+
+
+=== informacje og\'olne ===
+
+==== plan prezentacji ====
+\tableofcontents[currentsection,currentsubsection]
+
+
+
+==== miejsce i czas ====
+
+Wystawa odbyła się w Pałacu Kultury i Nauki w Warszawie w dn. 15.03.2013 -- 01.07.2013
+Eksperyment był przeprowadzany na ochotnikach w weekendy w godzinach 10 -- 17
+
+==== organizatorzy ====
+
+* BrainTech
+* Wydział Fizyki
+
+* PUB
+
+
+=== badanie ===
+
+==== plan prezentacji ====
+\tableofcontents[currentsection,currentsubsection]
+
+
+
+==== kwestionariusz ====
+%23 pytania
+* płeć
+* wiek
+* liczba godzin spędzana na grach komputerowych
+* ocena wygody kożystania z interfejsu BCI
+
+* kwestionariusz umiejscowienia kontroli (23 pytania)
+
+==== kwestionariusz ====
 <[figure]
-<<<images/cor_err_time.png, scale=0.43>>>
+<<<images/ankieta.png, scale=0.5>>>
 [figure]>
 
 
-==== wiek osób badanych ====
+
+
+==== paradygmat ====
+<[figure]
+<<<images/eksperyment.png, scale=0.15>>>
+[figure]>
+
+
+
+
+
+
+==== przebieg eksperymentu ====
+* wypełnienie kwestionariusza
+
+* kalibracja P300
+* przejście labiryntu za pomocą P300
+
+* kalibracja SSVEP
+** wysokie częstotliwości
+** niskie częstotliwości
+* przejście labiryntu za pomocą SSVEP
+
+
+== analiza danych ==
+==== plan prezentacji ====
+\tableofcontents[currentsection]
+
+=== dane liczbowe ===
+
+==== plan prezentacji ====
+\tableofcontents[currentsection,currentsubsection]
+
+
+
+==== statystyki ====
+\begin{table}[h]
+\begin{tabular}{ll}
+uczestnikow  & 230   \\
+w tym kobiet & 108   \\
+średnia wieku & 30{,}89 \\
+w przedziale  & 18 -- 39 \\
+ & \\
+P300         & 194   \\
+SSVEP        & 154   \\
+P300 i SSVEP & 145  
+\end{tabular}
+\end{table}
+
+
+==== wiek os\'ob badanych ====
 <[figure]
 <<<images/hist_age.png, scale=0.43>>>
 [figure]>
+
+=== analiza tag\'ow ===
+
+==== plan prezentacji ====
+\tableofcontents[currentsection,currentsubsection]
+
+
 
 ==== zależność czasu od wieku ====
 <[figure]
@@ -26,9 +127,21 @@
 <<<images/cor_games_time.png, scale=0.43>>>
 [figure]>
 
-==== liczba błędów dla każdego kroku labiryntu ====
+==== zależność czasu od płci ====
 <[figure]
-<<<images/errors_each_step.png, scale=0.43>>>
+<<<images/hist_gender_time.png, scale=0.43>>>
+[figure]>
+
+==== zależność czasu od wyniku kwestionariusza ====
+<[figure]
+<<<images/cor_quest_time.png, scale=0.43>>>
+[figure]>
+
+
+
+==== zależność czasu od kolejności paradygmatów ====
+<[figure]
+<<<images/hist_queue_time.png, scale=0.43>>>
 [figure]>
 
 ==== suma liczby błędów ====
@@ -36,55 +149,62 @@
 <<<images/hist_error_total.png, scale=0.43>>>
 [figure]>
 
-==== rozkład liczby błędów ====
+==== liczba błędów dla każdego kroku labiryntu ====
 <[figure]
 <<<images/errors_each_step.png, scale=0.43>>>
 [figure]>
-
-
 
 ==== czas dla każdego kroku labiryntu ====
 <[figure]
 <<<images/times_each_step.png, scale=0.43>>>
 [figure]>
 
-==== zależność czasu od płci ====
+==== zależność liczby błęd\'ow od czasu ====
 <[figure]
-<<<images/hist_gender_time.png, scale=0.43>>>
+<<<images/cor_err_time.png, scale=0.43>>>
 [figure]>
 
-==== zależność czasu od kolejności paradygmatów ====
-<[figure]
-<<<images/hist_queue_time.png, scale=0.43>>>
-[figure]>
 
-==== signal/noise ratio dla wysokich częst. ====
+
+=== analiza sygnał\'ow ===
+
+==== plan prezentacji ====
+\tableofcontents[currentsection,currentsubsection]
+
+==== signal/noise ratio dla wysokich częst. SSVEP ====
 <[figure]
 <<<images/hist_high_freq.png, scale=0.43>>>
 [figure]>
 
-==== signal/noise ratio dla niskich częst. ====
+==== signal/noise ratio dla niskich częst.SSVEP  ====
 <[figure]
 <<<images/hist_low_freq.png, scale=0.43>>>
 [figure]>
 
-==== signal/noise ratio dla wysokich częst. ====
+==== signal/noise ratio dla wysokich częst. SSVEP ====
 <[figure]
 <<<images/snr_high_freq.png, scale=0.43>>>
 [figure]>
 
-==== signal/noise ratio dla niskich częst. ====
+==== signal/noise ratio dla niskich częst. SSVEP ====
 <[figure]
 <<<images/snr_low_freq.png, scale=0.43>>>
 [figure]>
 
 
+== podsumowanie ==
 
-%\tableofcontents[currentsection,currentsubsection]
-
-%<[figure]
-%<<<images/spec_1.png, scale=0.27>>>
-%[figure]>
+==== plan prezentacji ====
+\tableofcontents[currentsection]
 
 
+==== software ====
 
+
+
+==== Autorzy ====
+* Karol Auguštin
+* Anna Chabuda
+* Anna Duszyk
+* Tomasz Spustek
+* Jarosław Żygierewicz
