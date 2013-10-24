@@ -22,7 +22,7 @@
 
 ==== miejsce i czas ====
 
-Wystawa odbyła się w Pałacu Kultury i Nauki w Warszawie w dn. 15.03.2013 -- 01.07.2013
+Wystawa odbyła się w Pałacu Kultury i Nauki w Warszawie w dn. 15.03.2013 -- 01.07.2013 \\
 Eksperyment był przeprowadzany na ochotnikach w weekendy w godzinach 10 -- 17
 
 ==== organizatorzy ====
@@ -45,7 +45,7 @@ Eksperyment był przeprowadzany na ochotnikach w weekendy w godzinach 10 -- 17
 * płeć
 * wiek
 * liczba godzin spędzana na grach komputerowych
-* ocena wygody kożystania z interfejsu BCI
+* ocena wygody korzystania z interfejsu BCI
 
 * kwestionariusz umiejscowienia kontroli (23 pytania)
 
