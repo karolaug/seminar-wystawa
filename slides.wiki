@@ -5,9 +5,78 @@
 \tableofcontents
 
 
+==== zależność liczby błędów od czasu ====
+<[figure]
+<<<images/cor_err_time.png, scale=0.43>>>
+[figure]>
+
+
+==== wiek osób badanych ====
+<[figure]
+<<<images/hist_age.png, scale=0.43>>>
+[figure]>
+
+==== zależność czasu od wieku ====
+<[figure]
+<<<images/cor_age_time.png, scale=0.43>>>
+[figure]>
+
+==== zależność czasu od czasu spędzonego na grach ====
+<[figure]
+<<<images/cor_games_time.png, scale=0.43>>>
+[figure]>
+
+==== liczba błędów dla każdego kroku labiryntu ====
+<[figure]
+<<<images/errors_each_step.png, scale=0.43>>>
+[figure]>
+
+==== suma liczby błędów ====
+<[figure]
+<<<images/hist_error_total.png, scale=0.43>>>
+[figure]>
+
+==== rozkład liczby błędów ====
+<[figure]
+<<<images/errors_each_step.png, scale=0.43>>>
+[figure]>
 
 
 
+==== czas dla każdego kroku labiryntu ====
+<[figure]
+<<<images/times_each_step.png, scale=0.43>>>
+[figure]>
+
+==== zależność czasu od płci ====
+<[figure]
+<<<images/hist_gender_time.png, scale=0.43>>>
+[figure]>
+
+==== zależność czasu od kolejności paradygmatów ====
+<[figure]
+<<<images/hist_queue_time.png, scale=0.43>>>
+[figure]>
+
+==== signal/noise ratio dla wysokich częst. ====
+<[figure]
+<<<images/hist_high_freq.png, scale=0.43>>>
+[figure]>
+
+==== signal/noise ratio dla niskich częst. ====
+<[figure]
+<<<images/hist_low_freq.png, scale=0.43>>>
+[figure]>
+
+==== signal/noise ratio dla wysokich częst. ====
+<[figure]
+<<<images/snr_high_freq.png, scale=0.43>>>
+[figure]>
+
+==== signal/noise ratio dla niskich częst. ====
+<[figure]
+<<<images/snr_low_freq.png, scale=0.43>>>
+[figure]>
 
 
 
